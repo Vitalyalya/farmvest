@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgba(39, 19, 3, 0.5);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'League-Spartan', sans-serif;
+  line-height: 1;
+
+  /* only works if nothing is absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+.green-text {
+  color: #008000;
+}
+
+.transp,
+.transp:link,
+.transp:visited {
+  background-color: transparent;
+  color: #263238;
+}
+
+.transp:hover,
+.transp:active {
+  background-color: #0e600e;
+  color: #fff;
+}
+
+.centered {
+  text-align: center;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.6rem;
+}
+
+.container-testimonial {
+  padding: 0 3.6rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  padding-top: 4.8rem;
+}
+
+.footer {
+  width: 100vw;
+  margin-top: 24rem;
+  background: rgba(242, 248, 242, 0.5);
+}
+
+.container-footer {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10rem;
+}
+
+.boxes {
+  display: flex;
+  gap: 3rem;
+}
+
+.mode-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row-reverse;
+}
+
+.testimonials-mobile-wrapper {
+  display: none;
+  visibility: hidden;
+  position: relative;
+}

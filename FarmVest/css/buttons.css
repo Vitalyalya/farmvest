@@ -1,0 +1,24 @@
+@media (max-width: 200rem) {
+  .testimonial-button.mobile-prev {
+    left: -100rem;
+  }
+  .testimonial-button.mobile-next {
+    right: -100rem;
+  }
+}
+@media (max-width: 62.5rem) {
+  .testimonial-button.mobile-next {
+    right: -2rem;
+  }
+  .testimonial-button.mobile-prev {
+    display: none;
+    left: -2rem;
+  }
+
+  .testimonial-button.next {
+    left: -100px;
+  }
+  .testimonial-button.prev {
+    left: -100px;
+  }
+}
